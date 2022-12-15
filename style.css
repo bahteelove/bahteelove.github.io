@@ -1,0 +1,81 @@
+body {
+    background: #d8eefe;
+}
+
+.title {
+    color: #094067;
+    margin: 30 0;
+}
+
+#main-body {
+    display: flex;
+    align-items: center;
+    margin: 0 110;
+}
+
+#painting-area {
+    position: flex;
+    
+    width: 500px;
+    height: 500px;
+    border-color: black;
+    background-color: #fffffe;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#main-tool-body {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    
+}
+
+#tools {
+    position: absolute;
+    left: 30%;
+    top: -100;
+}
+
+#color-pick-container {
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+#color-pick {
+    -webkit-appearance: none;
+    -moz-appearance: noen;
+    appearance: none;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+}
+#color-pick::-webkit-color-swatch {
+    border-radius: 50%;
+}
+
+#colour-choice,
+#clear-button,
+#rainbow,
+#eraser {
+    color: #fffffe;
+    margin: 10px;
+    width: 200px;
+    height: 50px;   
+    border-radius: 3px;
+    border-color: #3da9fc;
+    background: #3da9fc;
+}
+
+.header {
+    padding: 0 0 0 0;
+}
+  
+.title {
+    text-align: center;
+    font-size: 80px;
+}
